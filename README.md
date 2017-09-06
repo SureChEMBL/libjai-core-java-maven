@@ -1,4 +1,4 @@
-libjai-core-java-maven Debian package
+# libjai-core-java-maven Debian package
 
 Official libjai-core-java Debian package installs .jar-s only into `/usr/share/java`, but not into local Maven repo (/usr/share/maven-repo).
 
