@@ -1,0 +1,14 @@
+Source: libjai-core-java-maven
+Section: utils
+Priority: optional
+Maintainer: Yury Zavarin <yzavarin@ebi.ac.uk>
+Build-Depends:
+ debhelper (>= 9),
+ dh-usj-maven,
+
+Package: libjai-core-java-maven
+Architecture: all
+Depends:
+ ${misc:Depends},
+ libjai-core-java (= 1.1.4-3ubuntu1),
+Description: jars from libjai-core-java installed into local maven repo

@@ -1,0 +1,11 @@
+package: libjai-core-java-maven
+
+artifacts:
+  - group_id: javax.media
+    artifact_id: jai_codec
+
+  - group_id: javax.media
+    artifact_id: jai_core
+
+  - group_id: javax_media
+    artifact_id: mlibwrapper_jai
